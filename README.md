@@ -1,8 +1,10 @@
 # Easy-Tile-2D 
 A Simple asset maker working off a grid from a loaded png .
 ( Open Source Free ) Beta v1
-user friendly super easy tile art maker / collision adder for pygame ( can export png for other games, Ui design and much more...)
+User friendly super easy tile art maker / collision adder for pygame ( can export png for other games, Ui design and much more...)
 
+***right now you can only use one loaded png per project so if you want to edit/add from a different tile sheet export png then load up a new project with the new png you wish to utilize.(Update for this in the next beta , just wanted to get it out there.)
+**
 ================================================================
 
 
