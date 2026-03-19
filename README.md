@@ -1,5 +1,6 @@
-# Easy-Tile-2D
+# Easy-Tile-2D ( Open Source Free ) Beta v1
 user friendly super easy tile art maker / collision adder for pygame ( can export png for other games, Ui design and much more...)
+
 
 
 I am still fairly new to coding this is my first official project :) 
