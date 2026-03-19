@@ -3,7 +3,7 @@ user friendly super easy tile art maker / collision adder for pygame ( can expor
 
 
 
-I am still fairly new to coding this is my first official project :) 
+I am still fairly new to coding this is my 2nd official project :) 
 
 
 
