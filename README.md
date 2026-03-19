@@ -342,7 +342,10 @@ These are building blocks. They tell your game:
 - Middle Mouse Drag on the map = pan view
 
 
-
+​====
+Test game mode:
+when you export code it will auto spit out the collision and positions , you can test with a simple tester from the button to see your collisions highlighted and check if code is working 
+=====
 
 
 
