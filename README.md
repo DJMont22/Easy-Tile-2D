@@ -1,6 +1,9 @@
-# Easy-Tile-2D ( Open Source Free ) Beta v1
+# Easy-Tile-2D 
+A Simple asset maker working off a grid from a loaded png .
+( Open Source Free ) Beta v1
 user friendly super easy tile art maker / collision adder for pygame ( can export png for other games, Ui design and much more...)
 
+================================================================
 
 
 I am still fairly new to coding this is my 2nd official project :) 
@@ -21,6 +24,7 @@ Please leave comments for any recommendations or simply how you hate or love the
 
 Keep on the look out for new updates here Official Easy Tile 2d Page
 
+====================================================================
 
 
 Tips & How to use:
