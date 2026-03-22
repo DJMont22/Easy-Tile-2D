@@ -6,9 +6,12 @@ User friendly super easy tile art maker / collision adder for pygame ( can expor
 **
 <img width="1918" height="1023" alt="image" src="https://github.com/user-attachments/assets/4f4d0b07-c1a8-4112-8a2d-b7378a8d6331" />
 
-<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/02a5335e-8de0-4098-ba5d-03c2c419ffe5" />
+
+<img width="1853" height="993" alt="image" src="https://github.com/user-attachments/assets/40dc9cc4-b4d4-409b-b022-6e3832ba54b2" />
+
 
 <img width="1910" height="1022" alt="image" src="https://github.com/user-attachments/assets/4a923232-c293-44a9-8130-b1e2c03f9d16" />
+
 
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/e27e07ab-d07c-4e5d-b44d-6c88b8808b36" />
 
