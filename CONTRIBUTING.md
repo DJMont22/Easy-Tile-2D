@@ -1,4 +1,6 @@
 If you wish to contribute directly please message me
+Please do not copy and resell as your own this is free to use but not steal.
+If you use this app you own all art and have right to distribute it any way you wish .
 ---
 name: (Feature request)
 about: (Suggest an idea for this project)
