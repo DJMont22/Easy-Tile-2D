@@ -1,4 +1,5 @@
-# Easy-Tile-2D 
+# Easy-Tile-2D - User friendly Pygame Map Maker & UI Creator
+Windows for now but i am working on a Mac port for the program !
 A Simple asset maker working off a grid from a loaded png .
 ( Open Source Free ) Beta v1
 User friendly super easy tile art maker / collision adder for pygame ( can export png for other games, Ui design and much more...)
@@ -12,7 +13,18 @@ I am still fairly new to coding this is my 2nd official project :)
 
 This tool was made so I can simply have one tool to edit and create tile maps quickly.
 
-User Friendly design to make it so anyone could make maps/uis from tile sets...
+**What Easy Tile 2D does:
+
+load a PNG tilesheet
+slice tiles into paintable tile IDs
+build maps with multiple layers
+assign collision by layer
+export PNG previews
+export Python-ready map data
+test map collision and layout in live test mode
+**
+
+This tool was designed to make tile map and UI layout creation easier, faster, and more beginner friendly.
 
 i made this program so it would export png as well as the python code to make and link assets up to easier in python.
 
@@ -24,14 +36,30 @@ Please leave comments for any recommendations or simply how you hate or love the
 
 Keep on the look out for new updates here Official Easy Tile 2d Page
 
+Best for:
+----------
+platformer maps
+top-down maps
+UI layouts made from tiles
+collision setup by layer
+exporting visual previews for assets
+generating Python tile map data for game projects
 ====================================================================
-
-
+**
 Tips & How to use:
 
-Example meanings:
+**Moving Placed Tiles:**
+ *When selecting to move keep in mind you will have to select what you want to move only, then move it .*_
 
-Collision Seclection Explained:
+** Project Save / Load**
+  **-Save Project stores your current editor setup
+  -Load Project restores your saved map, layers, and settings
+  -Save Project As lets you keep different versions of your work**
+
+Example meanings:**
+
+**Collision Seclection Explained:**
+Important: collision is assigned at the layer level, not per individual tile.
 
 - solid
 
@@ -51,7 +79,9 @@ used for overlap events, usually not full blocking collision
 
 ______
 
-Layer Selection Explained:
+**Layer Selection Explained:
+Important: Layer types help organize what each layer is meant for.
+They do not change individual painted tiles by themselves — they define the purpose of that whole layer.**
 
 - Background layer for scenery
 
@@ -62,102 +92,137 @@ Layer Selection Explained:
 - Collision layer for invisible blockers or trigger zones
 
 - Prop layer for set dressing or blockers
+  
+- Decoration layer for visual detail only
+Prop layer for objects, blockers, or set dressing
 
+_______
+
+**Layer Panel Explained**
+
+-Clicking a layer makes it the active edit layer
+
+-Checked layers stay visible together
+
+-The active layer gets the strongest highlight
+
+-Other checked layers remain visible but lighter
+
+-Right-click a layer to change layer type or collision
+
+-Use Move Up / Move Down to change draw order
+
+_______
+
+**Layer Macros Explained**
+
+-Layer Macros let you assign keyboard hotkeys to layer type options
+
+-They also let you assign hotkeys to collision options
+
+-This makes it faster to switch a selected layer’s behavior without always right-clicking
+
+-Macro keys are best used when organizing layers quickly
+
+-Macro settings are saved for reuse
 
 
 -----
 
 ==================================================
 
-GOOD SETUP RULE
+**GOOD SETUP RULE**
 
 ==================================================
 
-One behavior = one layer
+**One behavior = one layer
 
 If tiles need different gameplay behavior:
 
-MAKE A NEW LAYER
+MAKE A NEW LAYER**
 
 =================
 
-Easy Tile 2D - How To Use
+_Easy Tile 2D - How To Use_
 
 ==================================
 
-1. Getting started
+**1. Getting started**
 
 ------------------
 
-1. Launch the program.
+A. Launch the program.
 
-2. Click "Load PNG Tilesheet".
+B. Click "Load PNG Tilesheet".
 
-3. Choose your tilesheet image.
+C. Choose your tilesheet image.
 
-4. In the Tilesheet Inspector, drag over one tile.
+D. In the Tilesheet Inspector, drag over one tile.
 
-5. Click:
+E. Click:
 
    - "Use Selection W/H" to set tile width and height.
 
    - "Use Selection X/Y as Margin" if the first tile starts after blank padding.
 
-6. Enter spacing if your sheet has gaps between tiles.
+F. Enter spacing if your sheet has gaps between tiles.
 
-7. Click "Slice Tilesheet".
+G. Click "Slice Tilesheet".
 
-2. Palette
+**2. Palette**
 
 ----------
 
-- After slicing, every tile appears in the Palette panel.
+A- After slicing, every tile appears in the Palette panel.
 
-- Click any tile to make it the current paint tile.
+B- Click any tile to make it the current paint tile.
 
-- The status bar shows the tile ID and its source position from the tilesheet.
+C- The status bar shows the tile ID and its source position from the tilesheet.
 
-3. Map setup
+**3. Map setup**
 
 ------------
 
-- Set Columns and Rows for the map grid.
+A- Set Columns and Rows for the map grid.
 
-- Set Zoom % for the map canvas.
+B- Set Zoom % for the map canvas.
 
-- Click "Create / Resize Map" to apply the size.
+C- Click "Create / Resize Map" to apply the size.
 
-- Use "Clear Map" to wipe all layers.
-
-4. Tools
+D- Use "Clear Map" to wipe all layers.
 
 --------
 
-Paint
+**4. Tools**
 
-- Left click and drag to place the selected tile.
+--------
+
+**_Paint_**
+- Best for placing tiles quickly with left click drag
 
 - Right click while in Paint to erase.
 
-Delete
+_**Delete**_
 
-- Left click and drag to erase tiles.
+- Left click SINGLE TILE or click drag to erase tiles.
 
-Select
+_**Select**_
 
 - Drag to create a selection rectangle.
 
 - You can also hold Ctrl and drag for selection while in other workflows.
 
-Move
+_**Move**_
+
+- best for repositioning existing tile chunks
 
 - Select an area first.
 
-- Switch to Move.
+- Switch to Move ( or use crtl
 
 - Drag the selection to a new location.
 
-Copy / Cut / Paste
+_**Copy / Cut / Paste**_
 
 - Select an area.
 
@@ -165,7 +230,7 @@ Copy / Cut / Paste
 
 - Click Paste, then click on the map to place the copied block.
 
-5. Layers
+**5. Layers**
 
 ---------
 
@@ -173,25 +238,25 @@ Copy / Cut / Paste
 
 - Click Remove Layer to delete the active layer.
 
-- Use Move Up / Move Down to reorder layers.
+- Use Move Up / Move Down to reorder layers (scroll using scroll wheel or bar to find wanted layer).
 
-- Click a layer row to make it the active edit layer.
+- Click a layer row to make it the active edit layer. Also will highlight layer to work on.
 
 - Use the checkbox beside a layer to show or hide it.
 
 - Multiple checked layers can stay visible together.
 
-- The active layer gets the strongest highlight.
+- The active layer gets the strongest highlight.(blue)
 
-- Other visible checked layers remain visible and lightly highlighted.
+- Other visible checked layers remain visible and lightly highlighted.(yellow/gold)
 
-6. Layer right-click options
+**6. Layer right-click options**
 
 ----------------------------
 
 Right click a layer to assign:
 
-- Layer Type:
+_- Layer Type:
 
   - art
 
@@ -217,20 +282,22 @@ Right click a layer to assign:
 
   - prop_blocker
 
-  - trigger
+  - trigger_
 
-Important behavior
+**Important behavior**
 
 ------------------
 
-Collision is stored at the layer level.
+**Collision is stored at the layer level.
 
 That means any painted tile on that layer inherits that layer's collision meaning in the export.
 
-Suggested workflow
+
+========================
+**Suggested workflow****
 
 ------------------
-
+_
 - Background layer for scenery
 
 - Art layer for visible gameplay tiles
@@ -239,35 +306,44 @@ Suggested workflow
 
 - Collision layer for invisible blockers or trigger zones
 
-- Prop layer for set dressing or blockers
+- Prop layer for set dressing or blockers_
 
-7. Grid viewing behavior
+==========================
+
+**7. Grid viewing behavior**
 
 ------------------------
 
-- Checked layers can be viewed together.
+_- Checked layers can be viewed together.
 
 - Clicking a layer makes it the active layer for editing.
 
 - Only actually placed tiles are highlighted.
 
 - Empty layers do not highlight random cells.
+  *When selecting to movie keep in mind you will have to select what you want to move only, then move it .*_
 
-8. Export options
+**8. Export options**
 
 -----------------
 
-Click Export to open the export popup.
+**_Click Export to open the export popup._**
 
-From there you can:
+_From there you can:
 
 - Copy Code
+
+- Test Code and collsions in game with pop out player.
+  (make sure you close after your test)
 
 - Save Python File
 
 - Export PNG
 
-9. What the Python export contains
+
+==================================
+
+**9. What the Python export code contains**
 
 ----------------------------------
 
@@ -309,10 +385,10 @@ The exported Python file includes:
 
 
 
-These are building blocks. They tell your game:
+_These are building blocks in **pygame**. They tell your game:_
 
 
-- where the tilesheet is
+_- where the tilesheet is
 
 - what tile id points to what tilesheet position
 
@@ -324,26 +400,66 @@ These are building blocks. They tell your game:
 
 - how to get collision rectangles for gameplay
 
+-Able to Copy to exsisting Pygames and export png for other ame creation worstations._
 
 
+==========================
 
-10. Keyboard shortcuts
+**10. Keyboard shortcuts**
 
-----------------------
+--------------------------
 
-- Ctrl+C = Copy selection
+**- _Mouse / view controls_**
 
-- Ctrl+V = Paste mode
+_-Ctrl + Mouse Wheel on map = zoom map
 
-- Delete = Delete selection
+-Ctrl + Mouse Wheel on tilesheet inspector = zoom inspector
 
-- D = Delete selection
+-Middle Mouse Drag on map = pan view_
 
-- Ctrl + Mouse Wheel on the map = zoom map
 
-- Ctrl + Mouse Wheel on the tilesheet inspector = zoom inspector
+**- _Macro Keys Windows_**
 
-- Middle Mouse Drag on the map = pan view
+_Keyboard Shortcuts(Built in)_
+Ctrl+C — Copies the current selected tile area.
+Ctrl+V — Enters paste mode so the copied tile area can be placed on the map.
+Crtl+R - Selected / Highlighed tile will rotate right
+Crtl+l - Selected / Highlighed tile will rotate left
+Delete — Deletes/clears the current selected tile area.
+ArrowUp — Moves the selected layer upward in the layer list.
+ArrowDown — Moves the selected layer downward in the layer list.
+
+_Save Features:_
+Ctrl+O — Opens a saved project.
+Ctrl+S — Saves the current project.
+Ctrl+Shift+S — Saves the current project as a new file.
+
+_All versions:_
+Layer Macros / Custom Hotkeys
+
+Easy Tile 2D also includes customizable Single Keystroke Layer Macros.
+Ease of layer modification and grid worability :)
+
+Click "Layer Macros..." in the Layers panel to assign your own plain keyboard keys to:
+
+- Layer Type options
+- Collision Type options
+
+These macro keys are customizable and can be changed or cleared at any time.
+
+Examples of valid plain keys include:
+- 1
+- Q
+- F2
+- Space
+- Arrow keys
+
+_Modifier combinations like Ctrl, Alt, Shift, or Windows-key combos are not used for these macro assignments.
+
+If the same key is assigned twice, the older duplicate assignment is cleared automatically.
+
+Macro bindings are saved so they can persist for reuse._
+
 
 
 ​====
@@ -376,16 +492,15 @@ By itself, the export is NOT:
 
 It is the map and map helpers only and a gui / menu maker.
 
+=======================================================================
+Easy Tile 2D exports map data, helper functions, and visual map output.
+It is not a full game engine by itself.
+=======================================================================
 
-
-
-
-EXAMPLES: (videos will come soon if wanted)
+**EXAMPLES: (videos will come soon if wanted)**
 
 ==================================================
-
 EXAMPLE 1 - NORMAL VISIBLE FLOOR / WALL SETUP
-
 ==================================================
 
 Right-click Layer: Set Layer Type -> platform
@@ -427,9 +542,7 @@ Result in game:
 - player is blocked from left/right/below too
 
 ==================================================
-
 EXAMPLE 2 - JUMP-THROUGH PLATFORM SETUP
-
 ==================================================
 
 Right-click Layer: Set Layer Type -> platform
@@ -469,9 +582,7 @@ Result in game:
 - player passes upward through the tile
 
 ==================================================
-
 EXAMPLE 3 - PROP OBJECT THAT BLOCKS MOVEMENT
-
 ==================================================
 
 Right-click Layer: Set Layer Type -> prop
@@ -513,9 +624,7 @@ Result in game:
 - helps separate prop collision from terrain collision
 
 ==================================================
-
 EXAMPLE 4 - INVISIBLE BOUNDARY WALL
-
 ==================================================
 
 Right-click Layer: Set Layer Type -> collision
@@ -555,9 +664,7 @@ Result in game:
 - best for invisible gameplay walls
 
 ==================================================
-
 EXAMPLE 5 - TRIGGER ZONE
-
 ==================================================
 
 Right-click Layer: Set Layer Type -> collision
@@ -599,9 +706,7 @@ Result in game:
 - usually does not physically block player
 
 ==================================================
-
 EXAMPLE 6 - PURE VISUAL BACKGROUND
-
 ==================================================
 
 Right-click Layer: Set Layer Type -> background
@@ -637,9 +742,7 @@ Result in game:
 - no collision is created
 
 ==================================================
-
 EXAMPLE 7 - DECORATION ONLY
-
 ==================================================
 
 Right-click Layer: Set Layer Type -> decoration
@@ -675,5 +778,5 @@ Result in game:
 - no collision is created
 
 
-
+Please leave me feed back so i can improve this project !
 Thank you !
