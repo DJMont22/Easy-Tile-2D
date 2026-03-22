@@ -28,13 +28,26 @@ This tool was made so I can simply have one tool to edit and create tile maps qu
 
 **What Easy Tile 2D does:
 
-load a PNG tilesheet
-slice tiles into paintable tile IDs
-build maps with multiple layers
-assign collision by layer
-export PNG previews
-export Python-ready map data
-test map collision and layout in live test mode
+**
+*Warning*
+If you have placed tiles in grid and then reslice the loaded tile sheet it will reset the layers and pallet to the new slicing..
+i am working on future fix for this in next update..**
+
+_load a PNG tilesheet_
+(When using mutiple slices from same sheet make a copy of the png and load then in seperate for seperate slicing.
+It will auto slice to your selected W/H & X/Y,
+Click both bottons after custom drag to adjust automatically after you select the tile you want to use for slicing/grid.,
+Then click slice to create pallet.)
+**This is where the history tab comes into play to see and organize what you have done.**
+
+
+Slice tiles into paintable tile IDs, mutiple png required of same tile set to get different slices of the same png.
+
+-Build maps with multiple layers
+-Assign collision by layer
+-Export PNG previews
+-Export Python-ready map data
+-Test map collision and layout in live test mode
 **
 
 This tool was designed to make tile map and UI layout creation easier, faster, and more beginner friendly.
