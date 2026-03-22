@@ -12,7 +12,7 @@ User friendly super easy tile art maker / collision adder for pygame ( can expor
 
 <img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/e27e07ab-d07c-4e5d-b44d-6c88b8808b36" />
 
-================================================================
+
 **please do not copy and resell as your own this is free to use but not steal or copy.
 if you use this app you own all exported art created with this and have right to distribute it any way you wish .**
 
