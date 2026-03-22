@@ -1,3 +1,4 @@
+If you wish to contribute directly please message me
 ---
 name: (Feature request)
 about: (Suggest an idea for this project)
