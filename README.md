@@ -5,6 +5,8 @@ A Simple asset maker working off a grid from a loaded png .
 User friendly super easy tile art maker / collision adder for pygame ( can export png for other games, Ui design and much more...)
 **
 ================================================================
+please do not copy and resell as your own this is free to use but not steal.
+if you use this app you own all art and have right to distribute it any way you wish .
 
 
 I am still fairly new to coding this is my 2nd official project :) 
