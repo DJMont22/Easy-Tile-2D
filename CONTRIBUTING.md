@@ -1,9 +1,9 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: (Feature request)
+about: (Suggest an idea for this project)
 title: Please Add Feature :( "Brief Description" )
-labels: documentation, enhancement, help wanted, invalid
-assignees: DJMont22
+labels: (documentation, enhancement, help wanted, invalid)
+assignees: 
 
 ---
 
