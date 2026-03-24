@@ -1,5 +1,9 @@
 # Easy-Tile-2D - User friendly Pygame Map Maker & UI Creator
 
+**_NOW AVAILABLE FOR WINDOWS AND MAC!
+IF ISSUES ON MAC LET ME KNOW I DONT HAVE MACBOOK YET BUT ILL DO MY BEST TO FIX_**
+**_Beta.V1.1_**
+
 
 <img width="1536" height="1024" alt="Easy Tile 2D png" src="https://github.com/user-attachments/assets/bb7d4854-5338-4f6e-ac28-c555791d6180" />
 
